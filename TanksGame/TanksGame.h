@@ -4,22 +4,22 @@
 #pragma warning(disable: 4996)
 
 // Const definition
-#define ROWS					11
-#define COLS					11
-#define TANK_SYMBOL				'O'
-#define WALLS_SYMBOL			'X'
-#define EMPTY_SYMBOL			'_'
-#define SHOOT_SIGN				'!'
-#define STOP_GAME_SIGN			999
-#define UPDATE_BOARD_WAITING	400
-#define BOMB_DIMENSION			3
-#define DIRECTIONS_LENGTH		9
+#define ROWS						11
+#define COLS						11
+#define TANK_SYMBOL					'O'
+#define WALLS_SYMBOL				'X'
+#define EMPTY_SYMBOL				'_'
+#define SHOOT_SIGN					'!'
+#define STOP_GAME_SIGN				999
+#define UPDATE_BOARD_WAITING		400
+#define BOMB_DIMENSION				3
+#define DIRECTIONS_LENGTH			9
 
 // Typedef declaration
-typedef enum Boolean			Bool;
-typedef unsigned short			size_s;
-typedef struct Direction		Location;
-typedef struct PositionPlayer	Pos;
+typedef enum Boolean				Bool;
+typedef unsigned short				size_s;
+typedef struct Direction			Location;
+typedef struct PositionPlayer		Pos;
 
 // Struct declaration
 struct Direction {
